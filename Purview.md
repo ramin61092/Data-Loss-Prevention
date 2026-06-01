@@ -304,6 +304,23 @@ This section documents the issues encountered during the lab and how they were r
 
 ---
 
+### Issue 7 — Policy Sync Finally Completed
+
+**Symptom:** Policy sync status showed "Sync error" or "Sync in progress" for several days across multiple policy rebuilds.
+
+**Root cause:** Combination of factors including trial tenant propagation delays, initial E3 licensing limitations, and the time required for the E5 Purview Suite license to fully provision after assignment.
+
+**Resolution:** After activating the Microsoft Purview Suite trial, assigning the license to the admin user account, rebuilding the policy from scratch, and allowing sufficient propagation time — the policy finally reached **Sync completed** status.
+
+**Screenshot:**
+
+<div align="center">
+
+![Sync Completed](Assets/sync_complete.png)
+*ZeroTrustBro - U.S. Financial Data Protection Policy showing Sync completed after several days of troubleshooting*
+
+</div>
+
 ## Trial Limitations
 
 This lab was conducted entirely within Microsoft trial subscriptions. The following limitations were encountered that would not exist in a production licensed environment:
