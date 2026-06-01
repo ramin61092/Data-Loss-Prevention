@@ -201,7 +201,7 @@ This confirmed the DLP policy successfully detected the sensitive financial data
 
 <div align="center">
 
-![DLP Detection Meme](1780281801867.jpeg)
+![DLP Detection Meme](Assets/staredown_meme.jpeg)
 *The DLP policy detecting credit card numbers in the test email*
 
 </div>
@@ -276,7 +276,7 @@ This section documents the issues encountered during the lab and how they were r
 
 <div align="center">
 
-![Waiting for Sync Meme](1780281995817.jpeg)
+![Waiting for Sync Meme](Assets/Waiting_meme.jpeg)
 *Me waiting for the policy to sync after several days and multiple policy rebuilds*
 
 </div>
@@ -297,7 +297,7 @@ This lab was conducted entirely within Microsoft trial subscriptions. The follow
 
 <div align="center">
 
-![Microsoft Trial Meme](1000116064.jpg)
+![Microsoft Trial Meme](Assets/money_meme.jpeg)
 *Microsoft when they find out the trial version of Purview doesn't offer full policy protections*
 
 </div>
