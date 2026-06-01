@@ -87,6 +87,13 @@ After activating the Purview Suite trial, the license was manually assigned to t
 
 ## Policy Configuration
 
+<div align="center">
+
+![New Policy Created](Assets/New_Policy_Created.png)
+*ZeroTrustBro - U.S. Financial Data Protection Policy successfully created in Microsoft Purview*
+
+</div>
+
 ### Template Selection
 
 The **U.S. Financial Data** template was selected from the Financial category. This template is designed to detect the presence of commonly recognized financial information in the United States.
@@ -119,6 +126,13 @@ The policy was applied to the following Microsoft 365 workloads:
 ## Rule Design
 
 ### Why Two Rules?
+
+<div align="center">
+
+![DLP Rules](Assets/dlp_rules.png)
+*Both Low and High volume rules configured and active in the ZeroTrustBro DLP policy*
+
+</div>
 
 A tiered rule approach is standard DLP practice. A single credit card number in an email could be accidental. A hundred credit card numbers in a single email is a potential data breach. The policy treats these scenarios differently.
 
@@ -190,6 +204,13 @@ A simulated data exfiltration scenario was created by composing an email contain
 **Email subject:** Customer Payment Information
 
 ### Test Result — Admin Notification Confirmed
+
+<div align="center">
+
+![Admin Alert Email](Assets/alert_email.png)
+*DLP policy successfully detected credit card numbers in the outbound test email and triggered an admin notification*
+
+</div>
 
 On the first successful test, the following admin notification email was received:
 
